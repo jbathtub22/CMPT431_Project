@@ -6,5 +6,5 @@
 #SBATCH --partition=fast
 #SBATCH --mem=10G
 
-srun ./SSSP_MPI --source 1 --inputFile input_graphs/web-Google
+srun ./SSSP_MPI --source 1 --inputFile input_graphs/testGraphConverted --y_or_n yes
 
